@@ -1,8 +1,8 @@
 import React from "react";
-
+import Button from '@mui/material/Button';
 class Header extends React.Component
 {
-    constructor()
+    constructor(props)
     {
         super(props)
     }
@@ -10,7 +10,7 @@ class Header extends React.Component
     render()
     {
         return<>
-        Hello
+        <Button variant="contained">Hello world</Button>
         </>
     }
 }

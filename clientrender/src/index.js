@@ -1,6 +1,6 @@
-import App from "./components/App";
-import  ReactDOM  from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App';
 
-
-const appDiv = document.getElementById("app");
+const appDiv = document.getElementById('app');
 ReactDOM.render(<App />, appDiv);
